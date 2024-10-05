@@ -10,4 +10,6 @@ JS back-end course workshop.
 3. Set up view engine
 4. Add resources
 5. set up static route
-6. Add controllers and routes
+6. render home page
+7. Add controllers and routes
+8. extract partial template
