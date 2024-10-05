@@ -13,3 +13,5 @@ JS back-end course workshop.
 6. render home page
 7. Add controllers and routes
 8. extract partial template
+9. Add service and data layers
+10. Add create page
