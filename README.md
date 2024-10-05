@@ -9,3 +9,5 @@ JS back-end course workshop.
 2. Set up express
 3. Set up view engine
 4. Add resources
+5. set up static route
+6. Add controllers and routes
