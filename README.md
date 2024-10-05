@@ -8,3 +8,4 @@ JS back-end course workshop.
 1. Initial Project Architecture
 2. Set up express
 3. Set up view engine
+4. Add resources
