@@ -1,1 +1,2 @@
-console.log('works')
+import express from 'express';
+

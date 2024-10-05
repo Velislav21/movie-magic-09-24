@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "JS back-end course workshop.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/index.js"
   },
