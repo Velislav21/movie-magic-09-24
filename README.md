@@ -4,3 +4,4 @@ JS back-end course workshop.
 ## Developin steps
 1. Initial Project Architecture
 2. Set up express
+3. Set up view engine
