@@ -37,7 +37,7 @@
       "director": "kevin",
       "year": "2024",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "10",
+      "rating": 10,
       "description": "fighting",
       "id": "bpu3ikbggm1w5m5yh"
     },
@@ -47,10 +47,19 @@
       "director": "kevin",
       "year": "2024",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_.jpg",
-      "rating": "10",
+      "rating": 10,
       "description": "fighting",
       "id": "bpu3ikgy0m1w5mi87"
+    },
+    {
+      "name": "breaking bad",
+      "genre": "Crime",
+      "director": "Vince Gilligan",
+      "year": "20082013",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWhbUzEV0-sNgNFbOf1Hz6HVt2i6zr-N9BA&s",
+      "rating": 10,
+      "description": "drug empire\r\n",
+      "id": "bpu3ikf7cm1wckmsn"
     }
-
   ]
 }
