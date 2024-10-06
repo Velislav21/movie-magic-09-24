@@ -15,3 +15,10 @@ JS back-end course workshop.
 8. extract partial template
 9. Add service and data layers
 10. Add create page
+11. Add details page
+12. Add search page
+
+## Developing steps 2
+1. Extract init files.
+2. Set up mongoose.
+3. Add Models.
