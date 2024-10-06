@@ -26,7 +26,7 @@ router.get('/search', async (req, res) => {
 router.get('/:movieId/details', async (req, res) => {
 
     const movieId = req.params.movieId
-    const movie = await movieServices.getOne(movieId)
+    const movie = await movieServices.getOne(movieId);
 
     movie.rating = getRatingView(movie.rating)
     res.render('movies/details', { movie })
