@@ -22,3 +22,4 @@ JS back-end course workshop.
 1. Extract init files.
 2. Set up mongoose.
 3. Add Models.
+4. Convert file based storage to db storage.

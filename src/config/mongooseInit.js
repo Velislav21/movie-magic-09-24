@@ -1,6 +1,6 @@
 import { connect } from 'mongoose';
 
-const dbUrl = 'mongodb://localhost:27017/movies';
+const dbUrl = 'mongodb://localhost:27017/Movies';
 
 export default async function mongooseInit(){
     try {
