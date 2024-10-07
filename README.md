@@ -23,3 +23,6 @@ JS back-end course workshop.
 2. Set up mongoose.
 3. Add Models.
 4. Convert file based storage to db storage.
+
+
+* Add model validation
