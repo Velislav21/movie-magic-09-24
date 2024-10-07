@@ -3,7 +3,9 @@ import movieServices from "../services/movieServices.js";
 
 const router = Router();
 
-
+function toArray(documents) {
+    return documents.map(document => document.toObject());
+}
 // URL -> /movies/create
 router.get('/create', (req, res) => {
     res.render('movies/create')
@@ -20,7 +22,7 @@ router.post('/create', async (req, res) => {
 router.get('/search', async (req, res) => {
     const filter = req.query;
     const movies = await movieServices.getAll(filter);
-    res.render('home', { isSearch: true, movies, filter })
+    res.render('home', { isSearch: true, movies: toArray(movies), filter })
 })
 
 router.get('/:movieId/details', async (req, res) => {
