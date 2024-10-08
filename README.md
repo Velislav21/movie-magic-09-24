@@ -23,6 +23,8 @@ JS back-end course workshop.
 2. Set up mongoose.
 3. Add Models.
 4. Convert file based storage to db storage.
-
+5. add cast model
+6. add create cast page
+7. add atach cast paged
 
 * Add model validation

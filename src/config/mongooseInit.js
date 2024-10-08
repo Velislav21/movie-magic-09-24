@@ -1,13 +1,13 @@
 import { connect } from 'mongoose';
 
-const dbUrl = 'mongodb://localhost:27017/Movies';
-
-export default async function mongooseInit(){
+export default async function mongooseInit() {
     try {
-        await connect(dbUrl);
-        console.log('Successfully connected')
-        
-    } catch (err){
-        console.log('Cannot connect to db ->' + err.message)
+        const url = process.env.DB_URL || 'mongodb://localhost:27017';
+
+        await connect(url, { dbName: 'magic-movies' });
+
+        console.log('Successfully connected to DB!');
+    } catch (err) {
+        console.log('Cannot connect to DB!' + err.message);
     }
 }
